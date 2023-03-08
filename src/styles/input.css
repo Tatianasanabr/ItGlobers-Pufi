@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formEmail {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.inputEmail {
+    width: 54rem;
+    height: 4rem;
+    border: solid;
+    padding: 2rem;
+    border-color: #9F9F9F;
+    border-right: none;
+
+}
+
+::placeholder {
+    color: var(--secundario);
+    font-weight: bold;
+    font-style: italic;
+    color: #9F9F9F;
+
+}
+
+/*Mensaje de registro*/
+.finalState {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+button {
+    background-color: transparent;
+    border: solid;
+    border-color: #9F9F9F;
+    border-left: none;
+
+}

@@ -1,0 +1,114 @@
+.Products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 170rem;
+}
+
+.imgproductRain {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ), url(../img/rain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.imgproductPuff {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ), url(../img/puff.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgproductCart {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ), url(../img/cart.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgproductNap {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ), url(../img/nap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.botonShopimg {
+    height: 5rem;
+    width: 10rem;
+    margin-top: 20rem;
+    background-color: transparent;
+    color: var(--primario);
+    border-color: var(--primario);
+    text-transform: uppercase;
+    border-style: groove;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.botonShopimg:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}
+
+.productDetail {
+  display: flex;
+  flex-direction: column;
+}
+
+.pufiDetail {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.pufiDetail>span {
+  text-transform: uppercase;
+}
+
+.imgrain {
+  background-image: url("../img/umbrella.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20rem;
+  height: 18rem;
+  margin: 0;
+}
+
+.imgpuff {
+  background-image: url("../img/puffsit.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20rem;
+  height: 18rem;
+  margin: 0;
+}
+
+.imgbags {
+  background-image: url("../img/bags.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20rem;
+  height: 18rem;
+  margin: 0;
+}
+
+.imgnap {
+  background-image: url("../img/napimg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20rem;
+  height: 18rem;
+  margin: 0;
+}

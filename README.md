@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# PRUEBA IT GLOBERS - Pufi - Tatiana Sanabria P.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Modelo inicial a replicar 
 
-## Available Scripts
+![Alt](/src/img/protinicial.png)
 
 In the project directory, you can run:
 

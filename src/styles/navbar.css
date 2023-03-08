@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*Mi CSS Global*/
+:root {
+    --primario: #ffffff;
+    --secundario: #000000;
+    --gris: #A9AAAD;
+
+}
+
+header {
+    background-image: url(../img/backgroundnb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+/*Categorías*/
+
+.categorias {
+    margin-top: 3rem;
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: .5rem;
+    row-gap: .01rem;
+    justify-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.categoriaEnlace {
+    color: var(--primario);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: .1rem 1.5rem 1rem 1rem;
+    border-right: 1px solid var(--primario);
+    margin-top: 1rem;
+
+
+}
+
+.categoriaEnlace:last-of-type {
+    border: none;
+}
+
+
+
+.DiApple {
+    background-color: var(--primario);
+    border-right: 1px solid rgb(200, 196, 196)
+
+}
+
+/*Accesos de usuario*/
+
+.useracces {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+    font-size: 1rem;
+    margin-top: 3rem;
+    justify-content: center;
+    margin: 1.5rem 1.5rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.selectMicuenta {
+    background-color: transparent;
+    border: none;
+    color: var(--primario);
+    font-size: 1.6rem;
+    cursor: pointer;
+
+}
+

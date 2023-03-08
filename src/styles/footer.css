@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    text-transform: uppercase;
+    font-weight: 500;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: .5rem;
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.brand {
+    background-image: url(../img/pufiblack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 18rem;
+
+}
+
+.buyfoo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    border-right: 1px solid #D6D6D6;
+
+    
+}
+
+.productsfoo {
+    border-right: 1px solid #D6D6D6;
+}
+
+.contactfoo {
+    border-right: 1px solid #D6D6D6;
+
+}
+
+.secbuy {
+    text-align: center;
+    grid-column: 1 / 4;
+    padding: .5rem;    
+} 
+
+.warranty {
+    font-style: italic;
+    font-size: .9rem;
+}
+
+.secbuyimg {
+    background-image: url(../img/secbuy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5rem;
+    width: 4rem;
+    
+}
+
+.snfoo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.redes {
+    margin: 1rem 0rem;
+}
+
+.shieldimg {
+    background-image: url(../img/shield.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5rem;
+    width: 4rem;
+}
+
+.copyright {
+    display: grid;
+    grid-column: 1 / 6;
+    border-top: 1px solid #D6D6D6;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    color: #D6D6D6;
+    font-size: 1.3rem;
+
+}
+
+.rights>span {
+    text-transform: lowercase;
+}
+
+.imgbrandl {
+    grid-column: 5 / 6;
+    background-image: url(../img/brandlive.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5rem;
+    width: 20rem;
+}
+

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.instagram {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: var(--gris);
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+.hashTag {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+/*Mosaico de productos*/
+
+.mosaicoProductos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 37rem;
+    gap: .2rem;
+    margin: 1rem 30rem 1rem 30rem;
+}
+
+.imgrainmin {
+    background-image: url(../img/rainmin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbagmin {
+    background-image: url(../img/bagmin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbeachmin {
+    background-image: url(../img/beachmin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgsun {
+    background-image: url(../img/puff.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgnapmin {
+    background-image: url(../img/nap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgfriendsmin {
+    background-image: url(../img/friendsmin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

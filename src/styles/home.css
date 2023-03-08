@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+
+
+h1 {
+    color: var(--primario);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 7rem;
+    text-shadow: -2px 3px 8px rgba(0,0,0,0.21);
+}
+
+
+.sectionHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonShop {
+    height: 5rem;
+    width: 10rem;
+    margin-top: 14rem;
+    background-color: transparent;
+    color: var(--primario);
+    border-color: var(--primario);
+    text-transform: uppercase;
+    border-style: groove;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.botonShop:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+  }
